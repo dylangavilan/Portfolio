@@ -4,7 +4,15 @@ import cv from "../resume/cv-dylangavilan.pdf";
 export default function Navbar() {
   return (
     <div className="w-full bg-fondo text-white flex justify-around py-3  items-center font-azeret text-xl border-solid border-b-2 border-gray-500">
-      <div>D</div>
+      <div>
+        <a
+          href="mailto:dylan.gavilan32@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Contact
+        </a>
+      </div>
       <div className="items-center">
         <li className="flex items-center">
           <ul className="mx-5 hover:text-rosa hover:text-2xl">
