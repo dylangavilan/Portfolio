@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Cards({ proyectos }) {
-  console.log(proyectos);
   return (
     <div className="mb-8 mx-16 md:mb-12">
       <div className="bg-white dark:bg-gray-700 shadow-md hover:shadow-lg rounded-xl w-80 m-2 md:m-4 p-4 text-left space-y-4">
@@ -23,7 +22,7 @@ export default function Cards({ proyectos }) {
                 if (i === 0) {
                   return <span>{c}</span>;
                 }
-                return <span>{"-" + c}</span>;
+                return <span>{" - " + c}</span>;
               })}
             </div>
             <div className="py-3">

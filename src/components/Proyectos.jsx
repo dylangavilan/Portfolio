@@ -14,7 +14,7 @@ export default function Proyectos() {
         "PostgreSQL",
         "CSS Modules",
       ],
-      repositorio: "https://github.com/dylangavilan/DyFood-",
+      repositorio: "https://github.com/dylangavilan/FoodFactory",
       imagen:
         "https://res.cloudinary.com/oleaproyecto2021/image/upload/v1636650428/unjdx0kupw7xbbzpiege.jpg",
     },
