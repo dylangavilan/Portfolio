@@ -3,17 +3,11 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 export default function Navbar() {
   return (
     <div className="w-full bg-fondo text-white flex justify-around py-3  items-center font-azeret text-xl">
-      <div>
-        <a className="font-medium">D</a>
-      </div>
+      <div>D</div>
       <div className="items-center">
         <li className="flex items-center">
-          <ul className="mx-5">
-            <a href="#">Resume</a>
-          </ul>
-          <ul className="mx-5">
-            <a href="#">About</a>
-          </ul>
+          <ul className="mx-5">Resume</ul>
+          <ul className="mx-5">About</ul>
           <ul className="mx-5 ">
             <a
               className="text-3x1"
