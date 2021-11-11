@@ -19,12 +19,17 @@ export default function Navbar() {
               className="text-3x1"
               href="https:/github.com/dylangavilan"
               target="_blank"
+              rel="noreferrer"
             >
               <AiFillGithub className="text-5x1" />
             </a>
           </ul>
           <ul className="mx-5">
-            <a href="https://linkedin.com/in/dylangavilan" target="_blank">
+            <a
+              href="https://linkedin.com/in/dylangavilan"
+              rel="noreferrer"
+              target="_blank"
+            >
               <AiFillLinkedin />
             </a>
           </ul>
