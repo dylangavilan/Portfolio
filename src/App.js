@@ -5,10 +5,12 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <div className="bg-fondo">
-      <Home />
-      <About />
-      <Skills />
-      <Proyectos />
+      <div className="App max-w-screen-xl m-auto">
+        <Home />
+        <About />
+        <Skills />
+        <Proyectos />
+      </div>
     </div>
   );
 }

@@ -36,7 +36,7 @@ export default function Proyectos() {
     },
   ];
   return (
-    <div className="py-16 flex flex-wrap" id="proyectos">
+    <div className="py-16 flex flex-wrap  mx-16 " id="proyectos">
       {proyectos?.map((c) => {
         return (
           <div>
