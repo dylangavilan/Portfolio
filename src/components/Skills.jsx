@@ -16,7 +16,7 @@ const Skills = () => {
             Back End
           </h1>
           <h2 className="text-lg text-gray-800 dark:text-gray-100 font-semibold">
-            MongoDB - Mongoose - Node - Express - PostgreSQL - Sequelize
+            MongoDB - Typescript - Node - Express - PostgreSQL - Sequelize
           </h2>
         </div>{" "}
         <div className="bg-white dark:bg-gray-700 shadow-md hover:shadow-lg rounded-xl w-64 m-2 md:m-4 p-4 text-left space-y-4">
