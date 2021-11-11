@@ -1,8 +1,6 @@
 import React from "react";
-import olea from "../imagen/oleaproyecto.jpg";
 import Cards from "./Cards";
 export default function Proyectos() {
-  let foto = olea;
   let proyectos = [
     {
       nombre: "FoodFactory",

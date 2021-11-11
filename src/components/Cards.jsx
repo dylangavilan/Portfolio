@@ -1,5 +1,5 @@
 import React from "react";
-import olea from "../imagen/oleaproyecto.jpg";
+
 export default function Cards({ proyectos }) {
   console.log(proyectos);
   return (
