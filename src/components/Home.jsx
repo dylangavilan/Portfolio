@@ -18,12 +18,18 @@ export default function Home() {
           </div>
         </div>
         <div className="py-8">
-          <button className="px-8 border-solid border-white border-2 py-1 mx-3 text-white rounded-sm tracking-wider">
-            <a href="#about">About</a>
-          </button>
-          <button className="px-8 border-solid border-white border-2 py-1 mx-3 text-white rounded-sm tracking-wider">
-            <a href="#skills"> Projects & Skills</a>
-          </button>
+          <a href="#about">
+            {" "}
+            <button className="px-8 border-solid border-white border-2 py-1 mx-3 hover:bg-white hover:font-semibold hover:text-black text-white rounded-sm tracking-wider">
+              About
+            </button>
+          </a>
+          <a href="#skills">
+            {" "}
+            <button className=" hover:bg-white hover:font-semibold hover:text-black px-8 border-solid border-white border-2 py-1 mx-3 text-white rounded-sm tracking-wider">
+              Projects & Skills
+            </button>
+          </a>
         </div>
       </div>
     </div>
