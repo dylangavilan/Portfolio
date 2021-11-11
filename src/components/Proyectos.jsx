@@ -35,6 +35,7 @@ export default function Proyectos() {
       repositorio: "https://github.com/dylangavilan/PG-Olea",
       imagen:
         "https://res.cloudinary.com/oleaproyecto2021/image/upload/v1636649407/dppqhwdvehstgrqcgz5r.jpg",
+      deploy: "https://somosolea.vercel.app",
     },
   ];
   return (

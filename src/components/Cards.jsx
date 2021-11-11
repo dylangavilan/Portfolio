@@ -26,9 +26,24 @@ export default function Cards({ proyectos }) {
               })}
             </div>
             <div className="py-3">
-              <a href={proyectos.repositorio} target="_blank" rel="noreferrer">
-                View repo
-              </a>
+              <button className="border-gray-700 border-2 rounded-sm px-2 text-purple-600 font-maven hover:bg-purple-600 hover:text-white">
+                <a
+                  href={proyectos.repositorio}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Code
+                </a>
+              </button>
+              {proyectos.deploy ? (
+                <button className="border-gray-700 border-2 mx-1 rounded-sm px-2 text-purple-600 font-maven hover:bg-purple-600 hover:text-white">
+                  <a href={proyectos.deploy} target="_blank" rel="noreferrer">
+                    Deploy
+                  </a>
+                </button>
+              ) : (
+                ""
+              )}
             </div>
           </div>
         </div>

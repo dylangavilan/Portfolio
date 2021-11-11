@@ -32,7 +32,7 @@ const Skills = () => {
             Agile Mindset
           </h1>
           <h2 className="text-lg text-gray-800 dark:text-gray-100 font-semibold">
-            SCRUM - Fast Learner - Leader
+            SCRUM - Fast Learner - Leader - Team worker
           </h2>
         </div>{" "}
       </div>

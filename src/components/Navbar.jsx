@@ -7,12 +7,12 @@ export default function Navbar() {
       <div>D</div>
       <div className="items-center">
         <li className="flex items-center">
-          <ul className="mx-5">
+          <ul className="mx-5 hover:text-rosa hover:text-2xl">
             <a href={cv} target="_blank" rel="noreferrer">
               Resume
             </a>
           </ul>
-          <ul className="mx-5">
+          <ul className="mx-5 hover:text-rosa hover:text-2xl">
             <a href="#about">About</a>
           </ul>
           <ul className="mx-5 ">
@@ -22,7 +22,7 @@ export default function Navbar() {
               target="_blank"
               rel="noreferrer"
             >
-              <AiFillGithub className="text-5x1" />
+              <AiFillGithub className="text-5x1 hover:text-rosa hover:text-2xl" />
             </a>
           </ul>
           <ul className="mx-5">
@@ -31,7 +31,7 @@ export default function Navbar() {
               rel="noreferrer"
               target="_blank"
             >
-              <AiFillLinkedin />
+              <AiFillLinkedin className="text-5x1 hover:text-rosa hover:text-2xl" />
             </a>
           </ul>
         </li>
