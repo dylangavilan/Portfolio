@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         nav: "Oswald",
         azeret: "Azeret Mono",
+        maven: "Maven Pro",
       },
       color: {
         fondo: "#264653",

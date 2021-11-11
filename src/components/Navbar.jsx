@@ -11,7 +11,7 @@ export default function Navbar() {
           <ul className="mx-5 ">
             <a
               className="text-3x1"
-              href="https:/github.com/dylangavilan"
+              href="https://github.com/dylangavilan"
               target="_blank"
               rel="noreferrer"
             >
