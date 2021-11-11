@@ -7,7 +7,9 @@ export default function Navbar() {
       <div className="items-center">
         <li className="flex items-center">
           <ul className="mx-5">Resume</ul>
-          <ul className="mx-5">About</ul>
+          <ul className="mx-5">
+            <a href="#about">About</a>
+          </ul>
           <ul className="mx-5 ">
             <a
               className="text-3x1"

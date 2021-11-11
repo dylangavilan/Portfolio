@@ -17,11 +17,12 @@ export default function Proyectos() {
         "CSS Modules",
       ],
       repositorio: "https://github.com/dylangavilan/DyFood-",
-      imagen: foto,
+      imagen:
+        "https://res.cloudinary.com/oleaproyecto2021/image/upload/v1636650428/unjdx0kupw7xbbzpiege.jpg",
     },
     {
-      nombre: "FoodFactory",
-      descripcion: "SPA",
+      nombre: "Olea",
+      descripcion: "E-Commerce",
       tecnologias: [
         "React",
         "Redux",
@@ -30,20 +31,26 @@ export default function Proyectos() {
         "Sequelize",
         "PostgreSQL",
         "CSS Modules",
+        "Jwt",
+        "Socket.io",
       ],
-      repositorio: "https://github.com/dylangavilan/DyFood-",
-      imagen: foto,
+      repositorio: "https://github.com/dylangavilan/PG-Olea",
+      imagen:
+        "https://res.cloudinary.com/oleaproyecto2021/image/upload/v1636649407/dppqhwdvehstgrqcgz5r.jpg",
     },
   ];
   return (
-    <div className="py-16 flex flex-wrap  mx-16 " id="proyectos">
-      {proyectos?.map((c) => {
-        return (
-          <div>
-            <Cards proyectos={c} />
-          </div>
-        );
-      })}
+    <div>
+      <h1 className="text-center text-4xl  text-white font-azeret">Projects</h1>
+      <div className="flex flex-wrap justify-center  " id="proyectos">
+        {proyectos?.map((c) => {
+          return (
+            <div>
+              <Cards proyectos={c} />
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }

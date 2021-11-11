@@ -22,7 +22,7 @@ export default function Home() {
             <a href="#about">About</a>
           </button>
           <button className="px-8 border-solid border-white border-2 py-1 mx-3 text-white rounded-sm tracking-wider">
-            <a href="#proyectos"> Projects</a>
+            <a href="#skills"> Projects & Skills</a>
           </button>
         </div>
       </div>

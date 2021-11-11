@@ -10,7 +10,11 @@ export default function Cards({ proyectos }) {
         </h3>
         <div className="inline justify-center items-center">
           <div className="flex justify-center">
-            <img src={olea} alt="proyecto" className="h-66 w-96"></img>
+            <img
+              src={proyectos.imagen}
+              alt="proyecto"
+              className="h-66 w-96"
+            ></img>
           </div>
           <div className="text-center">
             <h4>{proyectos.descripcion}</h4>
