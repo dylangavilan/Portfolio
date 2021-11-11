@@ -1,11 +1,12 @@
-import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
+import Proyectos from "./components/Proyectos";
 function App() {
   return (
     <div>
-      <Home></Home>
+      <Home />
       <About />
+      <Proyectos />
     </div>
   );
 }

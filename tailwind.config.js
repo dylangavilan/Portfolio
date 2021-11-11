@@ -20,6 +20,7 @@ module.exports = {
       textColor: (theme) => theme("colors"),
       textColor: {
         rosa: "#e5989b",
+        clarito: "#faf9f9",
         secondary: "#ffed4a",
         danger: "#e3342f",
       },
