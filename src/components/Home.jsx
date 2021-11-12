@@ -3,8 +3,7 @@ import Navbar from "./Navbar";
 
 export default function Home() {
   return (
-    <div className="h-screen bg-fondo text-center ">
-      <Navbar />
+    <div className="h-screen text-center ">
       <div className="py-20">
         <div className="px-4 text-5xl text-white">
           <div className="text-4xl">
@@ -20,13 +19,13 @@ export default function Home() {
         <div className="py-8">
           <a href="#about">
             {" "}
-            <button className="px-8 border-solid border-white border-2 py-1 mx-3 hover:bg-white hover:font-semibold hover:text-black text-white rounded-sm tracking-wider">
+            <button className="px-8 mb-4 font-azeret border-solid border-white border-2 py-1 mx-3 hover:bg-white hover:font-semibold hover:text-black text-white rounded-sm tracking-wider">
               About
             </button>
           </a>
           <a href="#skills">
             {" "}
-            <button className=" hover:bg-white hover:font-semibold hover:text-black px-8 border-solid border-white border-2 py-1 mx-3 text-white rounded-sm tracking-wider">
+            <button className="mb-4 font-azeret hover:bg-white hover:font-semibold hover:text-black  border-solid border-white border-2 py-1 mx-3 px-2 text-white rounded-sm tracking-wider">
               Projects & Skills
             </button>
           </a>

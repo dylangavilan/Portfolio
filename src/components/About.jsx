@@ -1,7 +1,7 @@
 import React from "react";
 export default function About() {
   return (
-    <div className="px-10   pb-20 bg-fondo mb-10 " id="about">
+    <div className="px-10 min-w-screen pb-20 bg-fondo " id="about">
       <div className="text-2xl  ">
         <h2 className="font-marven text-center pt-10 pb-20 text-5xl text-rosa ">
           About me

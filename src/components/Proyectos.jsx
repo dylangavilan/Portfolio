@@ -40,10 +40,10 @@ export default function Proyectos() {
   ];
   return (
     <div>
-      <h1 className="text-center text-4xl  text-white font-azeret ">
+      <h1 className="text-center text-4xl  text-white font-azeret mb-8 mx-16 md:mb-12 ">
         Projects
       </h1>
-      <div className="flex flex-wrap justify-center py-4 " id="proyectos">
+      <div className="flex flex-wrap justify-center" id="proyectos">
         {proyectos?.map((c) => {
           return (
             <div>
