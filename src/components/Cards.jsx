@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Cards({ proyectos }) {
   return (
-    <div className="bg-white shadow-md hover:shadow-lg rounded-xl w-80 m-2 md:m-4 p-4 text-left space-y-4">
+    <div className="bg-white shadow-md hover:shadow-lg rounded-xl mb-10 w-80 m-2 md:m-4 p-4 text-left space-y-4">
       <h3 className="text-4xl font-azeret text-center text-purple-600">
         {proyectos.nombre}
       </h3>

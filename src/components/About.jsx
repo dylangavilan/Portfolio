@@ -9,16 +9,18 @@ export default function About() {
         <p className="font-azeret text-clarito">
           Hi! <span className="text-rosa">I'm Dylan Gavilan</span>, i was born
           in Buenos Aires, Argentina. I'm 20 years old.
-          <br />I am a programming fan, since I was little
+          <br />I am a programming fan, since I was very young
           <span className="text-rosa">
             {" "}
             I liked everything related to solving problems
           </span>
-          , challenges, etc. I love researching and discovering new
-          technologies, I take advantage of my free time for this. When it comes
-          to developing, I consider that I have agility in learning, I am
-          organized, <span className="text-rosa">I also like teamwork</span>, I
-          believe that you can go further than if you go on your own.
+          , challenges, etc. I love to research and learn new technologies on my
+          free time. I am an organized, team worker and fast learner person. I
+          believe that you can go further{" "}
+          <span className="text-rosa">
+            {" "}
+            in a team than if you go on your own.{" "}
+          </span>
         </p>
       </div>
     </div>

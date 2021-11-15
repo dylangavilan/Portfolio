@@ -37,6 +37,15 @@ export default function Proyectos() {
         "https://res.cloudinary.com/oleaproyecto2021/image/upload/v1636649407/dppqhwdvehstgrqcgz5r.jpg",
       deploy: "https://somosolea.vercel.app",
     },
+    {
+      nombre: "Wave Portal",
+      descripcion: "Smart Contract",
+      tecnologias: ["React", "Solidity", "Web3", "CSS Modules"],
+      repositorio: "https://github.com/dylangavilan/portal-eth",
+      imagen:
+        "https://res.cloudinary.com/oleaproyecto2021/image/upload/v1637012048/wobwfxumchpc5yff5hih.png",
+      deploy: "https://portal-eth.vercel.app/",
+    },
   ];
   return (
     <div>
